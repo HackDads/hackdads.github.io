@@ -1,0 +1,38 @@
+
+# Site settings
+title: hackdads.github.io
+# email: your-email@domain.com
+description: > 
+  Example description...
+  TODO: replace with actual
+baseurl: ""		# no trailing slash
+url: "http://hackdads.github.io"	# no trailing slash
+excerpt_separator: <!--more—->
+
+about: > 
+  Example about...
+  TODO: replace with actual
+footer: > 
+  Example footer...
+  TODO: replace with actual
+twitter_username:    HackDads
+github_username:     HackDads
+#facebook_username:   TODO
+#linkedin_username:   TODO
+#google_username:     TODO
+#youtube_username:    ishotjrdotcom
+#instagram_username:  ishjr
+#reddit_username:     ishjr
+#tumblr_username:     ishotjr
+#lastfm_username:  	 ishotjrdotcom
+#soundcloud_username: ishjr
+#miiverse_username:   ishotjr
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+gems:
+- jemoji
