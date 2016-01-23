@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Welcome"
-date:   2016-01-22 11:07:42
+date:   2016-01-22 23:07:42
 # categories: 
 ---
             {% capture index_include %}{% include index.md %}{% endcapture %}
@@ -11,7 +11,7 @@ date:   2016-01-22 11:07:42
 
             {% for post in site.posts limit:5 %}
 
-            <p class="small pull-right">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            <p class="small pull-right">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
